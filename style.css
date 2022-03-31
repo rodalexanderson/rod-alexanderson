@@ -217,7 +217,9 @@ header {
 /***************************** TERMINA SECCION TESTIMONIALS ***************************++++*/
 
 /*********************** INICIA SECCION MY SKILLS ***************************+*/
-
+#my-skills{
+	margin-bottom: 80px;
+}
 .sb-container {
 	position: relative;
 	width: 150px;
@@ -389,52 +391,17 @@ header {
 	-ms-user-select: none;
 	user-select: none;
 }
-
-span.sb-icon{
-	display: block;
-	height: 70px;
-	width: 70px;
-	margin: 20px auto;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+.sb-text{
+	color: white;
+	font-size: large;
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
-
-span.sb-icon:before {
-	font-family: 'icons';
-	font-style: normal;
-	font-weight: normal;
-	display: block;
-	text-decoration: inherit;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
-	line-height: 64px;
-	width: 100%;
-	font-size: 60px;
-	color: #000;
-	text-shadow: 0 0 1px #000;
-}
-
-.icon-cog:before { content: 'rrr'; } /* '5' */
-.icon-flight:before { content: '\37'; } /* '7' */
-.icon-eye:before { content: '\34'; } /* '4' */
-.icon-install:before { content: '\39'; } /* '9' */
-.icon-bag:before { content: '\36'; } /* '6' */
-.icon-globe:before { content: '\38'; } /* '8' */
-.icon-picture:before { content: '\32'; } /* '2' */
-.icon-video:before { content: '\30'; } /* '0' */
-.icon-download:before { content: '\41'; } /* 'A' */
-.icon-mobile:before { content: '\42'; } /* 'B' */
-.icon-camera:before { content: '\33'; } /* '3' */
 
 /*********************** TERMINA SECCION MY SKILLS ***************************+*/
 
 /***************************** INICIA SECCION MY PROJECTS ***************************++++*/
 #my-projects{
-	margin-top: 7%;
 	height: 500px;
 }
 
