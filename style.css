@@ -409,7 +409,18 @@ header {
 
 /***************************** INICIA SECCION MY PROJECTS ***************************++++*/
 #my-projects{
-	height: 500px;
+	margin-bottom: 100px;
+}
+.projects{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.card{
+	width: 480px;
 }
 
 
