@@ -397,11 +397,12 @@ header {
 @media only screen and (max-width: 600px) {
 	#my-skills{
 	  width: 100%;
-	  padding-bottom: 250px;
+	  padding-bottom: 200px;
 	}
 	.sb-container{
 		padding-top: 50px;
-		height: 160px;
+		height: 100px;
+		margin-bottom: 100px;
 	}
   }
 
@@ -420,8 +421,21 @@ header {
 	justify-content: space-evenly;
 }
 .card{
-	width: 480px;
+	width: 470px;
+	margin-bottom: 50px;
+	margin-right: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+	.card, iframe{
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0;
+	}
+	.card{
+		height: 400px;
+	}
+  }
 
 
 /***************************** TERMINA SECCION MY PROJECTS ***************************++++*/
@@ -490,9 +504,9 @@ header {
 
   @keyframes glow {
 	  from {
-		  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #04883f, 0 0 40px #04883f, 0 0 50px #04883f, 0 0 60px #04883f, 0 0 70px #04883f;;
+		  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #37c943, 0 0 40px #37c943, 0 0 50px #37c943, 0 0 60px #37c943, 0 0 70px #37c943;;
 	  } to {
-		  text-shadow: 0 0 20px #fff, 0 0 30px #07b455, 0 0 40px #07b455, 0 0 50px #07b455, 0 0 60px #07b455, 0 0 70px #07b455, 0 0 80px #07b455;
+		  text-shadow: 0 0 20px #fff, 0 0 30px #1bb407, 0 0 40px #1bb407, 0 0 50px #1bb407, 0 0 60px #1bb407, 0 0 70px #1bb407, 0 0 80px #1bb407;
 	  }
   }
 
@@ -512,14 +526,14 @@ header {
 	}
 	.glowing-icons {
 		flex-direction: column;
-		height: 800px;
-		justify-content: space-evenly;
+		height: 350px;
+		justify-content: space-between;
 		
 	  }
 	  #apple,
       #twitter,
       #github{
-	  font-size: 6em;
+	  font-size: 7em;
   }
   }
 /* TERMINA GLOWING ICONS CSS */
