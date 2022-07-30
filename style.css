@@ -188,8 +188,9 @@ nav {
 		height: 70vh;
 	}
 	#mario {
+		width: 18%;
 		bottom: -4%;
-		left: 15.5%;
+		left: 16%;
 	}
 }
 
