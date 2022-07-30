@@ -17,9 +17,9 @@ arbusto1.style.left = arbusto1YLeft + '%'
 function move() {
     const incrementer = window.scrollY
     nube.style.bottom = nubeYBottom + incrementer * 0.1 + '%'
-    nube1.style.bottom = nubeYBottom + incrementer * 0.4 + '%'
-    nube2.style.bottom = nubeYBottom + incrementer * 0.3 + '%'
-    nube3.style.bottom = nubeYBottom + incrementer * 0.2 + '%'
+    nube1.style.bottom = nubeYBottom + incrementer * 0.2 + '%'
+    nube2.style.bottom = nubeYBottom + incrementer * 0.1 + '%'
+    nube3.style.bottom = nubeYBottom + incrementer * 0.1 + '%'
     arbusto1.style.left = arbusto1YLeft + incrementer * 0.005 + '%'
 }
 
