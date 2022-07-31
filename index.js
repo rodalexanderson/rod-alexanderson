@@ -24,3 +24,28 @@ function move() {
 }
 
 window.addEventListener('scroll', move)
+
+
+const cloudthought = document.getElementById('cloud-thought')
+const cloudthought1 = document.getElementById('cloud-thought1')
+const cloudthought2 = document.getElementById('cloud-thought2')
+const cloudthought3 = document.getElementById('cloud-thought3')
+
+function showMario() {
+    const mario2 = document.getElementById('mario')
+    if (mario2.style.display = "none"){
+        mario2.style.display = "block"
+    } else {
+        mario2.style.display = "none"
+    }
+}
+
+function showMario2() {
+    const mario2 = document.getElementById('mario2')
+    if (mario2.style.display = "none"){
+        mario2.style.display = "block"
+    } else {
+        mario2.style.display = "none"
+    }
+}
+

@@ -21,7 +21,7 @@ nav{
 	justify-content: space-around;
 	position: sticky;
 	top: 0;
-	z-index: 3;
+	z-index: 5;
 	background-color: #fffefe;
 	opacity: 0.9;
 	color: #111;
@@ -43,7 +43,6 @@ a{
 }
 .a:hover {
 	cursor: pointer;
-	color: #27262c;
 	color: rgb(0, 0, 0);
 	font-family: 'Luckiest Guy';
 	background-image: url('./images/main/bricks.svg');
@@ -66,10 +65,10 @@ a{
 }
 /*************************** TERMINA SECCION NAV *************************/
 /***************************** SECCION MOUNTAINS ***************************++++*/
-#montanasmovil{
-	display: none;
+#mountains{
+	margin-top: -2%;
 }
-#mountains {
+#mountainsdiv {
 	position: relative;
 	background-image: linear-gradient(#F3BADB, #F6D19C);
 	width: 100%;
@@ -78,8 +77,17 @@ a{
 	justify-content: center;
 }
 
-#mountains img{
+#mountainsdiv img{
 	position: absolute;
+}
+#mariobutton img{
+	position: absolute;
+	width: 3%;
+	background-repeat: no-repeat;
+	bottom: -30px;
+	left: 25%;
+	z-index: 4;
+	border: none;
 }
 #montanas {
 	bottom: 0;
@@ -88,9 +96,9 @@ a{
 	bottom: 0%;
 }
 #mario {
-	width: 21%;
-	bottom: -16%;
-	left: 14.3%;
+	display: none;
+	position: relative;
+	bottom: 0;
 }
 #arbusto{
 	width: 20;
@@ -183,6 +191,9 @@ a{
 	#mountains{
 		height: 80vh;
 	}
+	#mariobutton img{
+		bottom: -6%;
+	}
 	#arbusto{
 		width: 20%;
 		left: 5%;
@@ -194,10 +205,6 @@ a{
 	#arbusto2{
 		width: 20%;
 		right: 5%;
-	}
-	#mario {
-		bottom: -6%;
-		left: 16.5%;
 	}
 	#nube {
 		width: 30%;
@@ -235,11 +242,10 @@ a{
 @media only screen and (max-width: 600px) {
 	#mountains{
 		height: 70vh;
+		margin-top: -15%;
 	}
-	#mario {
-		width: 18%;
-		bottom: -4%;
-		left: 16%;
+	#mariobutton img{
+		bottom: -60px;
 	}
 }
 
@@ -262,7 +268,11 @@ a{
 	text-align: justify;
 }
 
-
+@media only screen and (max-width: 600px){
+	#about-me{
+		margin-top: 260px;
+	}
+}
 
 
 
@@ -271,8 +281,57 @@ a{
 
 /*********************** INICIA SECCION MY SKILLS ***************************+*/
 #my-skills{
-	margin-bottom: 80px;
+	width: 100%;
+	height: 100vh;
 }
+
+#my-skills img{
+	width: 70%;
+}
+.skilldiv{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 50%;
+}
+.skilldivdiv{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+#mario2{
+	display: none;
+}
+
+@media only screen and (max-width: 799px) {
+#my-skills{
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.skilldiv{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	}
+#my-skills img{
+	width: 400px;
+	}
+.skilldivdiv{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#head{
+	display: none;
+}
+}
+
+
 
 /*********************** TERMINA SECCION MY SKILLS ***************************+*/
 
