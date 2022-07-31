@@ -318,6 +318,9 @@ a{
 	flex-direction: row;
 	justify-content: space-around;
 }
+.icon{
+	width: 200px;
+}
 @media only screen and (max-width: 600px) {
 	#icons{
 		flex-direction: column;
