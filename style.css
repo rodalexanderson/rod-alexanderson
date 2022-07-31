@@ -36,8 +36,9 @@ nav{
 a{
 	text-decoration: none;
 	color: #111;
+	font-weight: bold;
 }
-a:hover {
+.a:hover {
 	cursor: pointer;
 	color: #27262c;
 	color: rgb(0, 0, 0);
@@ -45,8 +46,21 @@ a:hover {
 	background-image: url('./images/main/bricks.svg');
 	background-repeat: no-repeat;
 	text-decoration: none;
-	
   }
+  @media only screen and (max-width: 600px) {
+	nav{
+		flex-direction: column;
+		text-align: center;
+	}
+	.navdiv{
+		width: 100%;
+		padding-bottom: 15px;
+		justify-content: space-evenly;
+	}
+	.a:hover{
+		background-image: none;
+	}
+}
 /*************************** TERMINA SECCION NAV *************************/
 /***************************** SECCION MOUNTAINS ***************************++++*/
 #montanasmovil{
@@ -73,7 +87,7 @@ a:hover {
 #mario {
 	width: 21%;
 	bottom: -16%;
-	left: 14%;
+	left: 14.3%;
 }
 #arbusto{
 	width: 20;
@@ -237,6 +251,9 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	color: wheat;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
 }
 
 
@@ -472,12 +489,35 @@ a:hover {
   }
 
 
-/***************************** TERMINA SECCION MY PROJECTS ***************************++++*/
+/***************************** TERMINA SECCION MY PROJECTS ********************************/
+/***************************** INICIA SECCION CONTACT ME ********************************/
+#contact-me{
+	text-align: center;
+	margin-bottom: 20px;
+	background-image: none;
+}
+#icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+	#icons{
+		flex-direction: column;
+	}
+	.icon{
+		width: 50px;
+	}
+  }
 
-/***************************** INICIA SECCION FOOTER ***************************++++*/
+
+/***************************** TERMINA SECCION CONTACT ME ********************************/
+
+/***************************** INICIA SECCION FOOTER ********************************/
 footer{
 	height: auto;
+	text-align: center;
 }
 
 
-/***************************** TERMINA SECCION FOOTER ***************************++++*/
+/***************************** TERMINA SECCION FOOTER ********************************/
