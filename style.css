@@ -80,11 +80,11 @@ a{
 #mountainsdiv img{
 	position: absolute;
 }
-#mariobutton img{
+#inputmario{
 	position: absolute;
 	width: 3%;
 	background-repeat: no-repeat;
-	bottom: -30px;
+	bottom: -25px;
 	left: 25%;
 	z-index: 4;
 	border: none;
@@ -191,8 +191,8 @@ a{
 	#mountains{
 		height: 80vh;
 	}
-	#mariobutton img{
-		bottom: -6%;
+	#inputmario{
+		bottom: -5%;
 	}
 	#arbusto{
 		width: 20%;
@@ -267,10 +267,15 @@ a{
 	padding-right: 15px;
 	text-align: justify;
 }
+@media only screen and (max-width: 899px){
+	#about-me{
+		margin-top: 180px;
+	}
+}
 
 @media only screen and (max-width: 600px){
 	#about-me{
-		margin-top: 260px;
+		margin-top: 220px;
 	}
 }
 
@@ -326,9 +331,13 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 	}
-#head{
-	display: none;
 }
+@media only screen and (max-width: 799px){
+	#head{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 
