@@ -290,7 +290,7 @@ a{
 	height: 100vh;
 }
 
-#my-skills img{
+#cloud-thought, #cloud-thought1, #cloud-thought2, #cloud-thought3, #cloud-thought4{
 	width: 70%;
 }
 .skilldiv{
@@ -337,6 +337,9 @@ a{
 		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	#mario2{
+		width: 100px;
 	}
 }
 

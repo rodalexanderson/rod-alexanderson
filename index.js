@@ -41,9 +41,10 @@ function showMario() {
 }
 
 function showMario2() {
+    const head = document.getElementById('head')
     const mario2 = document.getElementById('mario2')
     if (mario2.style.display = "none"){
-        mario2.style.display = "block"
+        (mario2.style.display = "block") && (head.style.display = "none")
     } else {
         mario2.style.display = "none"
     }
