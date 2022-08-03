@@ -53,21 +53,33 @@ function showMario2() {
 // MY SKILLS ANIMATION STARTS
 function ghostShown() {
     const ghost = document.getElementById('ghost')
-    ghost.style.top = -20 + '%' 
+    const css = document.getElementById('css-text')
+    ghost.style.top = -20 + '%'
+    css.style.display = "block"
 }
 function monedaShown() {
     const moneda = document.getElementById('moneda')
-    moneda.style.top = -20 + '%' 
+    const management = document.getElementById('management-text')
+    moneda.style.top = -20 + '%'
+    management.style.display = "block"
+    
 }
 function flowerShown() {
     const flower = document.getElementById('flower')
+    const js = document.getElementById('js-text')
     flower.style.top = -20 + '%' 
+    js.style.display = "block"
 }
 function starShown() {
     const star = document.getElementById('star')
+    const seo = document.getElementById('seo-text')
     star.style.top = -20 + '%' 
+    seo.style.display = "block"
 }
 function hongoShown() {
     const hongo = document.getElementById('hongo')
+    const react = document.getElementById('react-text')
+    react.style.display = "block"
     hongo.style.top = -20 + '%' 
+    
 }
