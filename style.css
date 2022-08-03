@@ -49,6 +49,9 @@ a{
 	background-repeat: no-repeat;
 	text-decoration: none;
   }
+  h1{
+	font-family: 'Luckiest Guy';
+  }
   @media only screen and (max-width: 600px) {
 	nav{
 		flex-direction: column;
@@ -289,11 +292,7 @@ a{
 	width: 100%;
 	height: 100vh;
 }
-
-#cloud-thought, #cloud-thought1, #cloud-thought2, #cloud-thought3, #cloud-thought4{
-	width: 70%;
-}
-.skilldiv{
+.skill{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -301,10 +300,19 @@ a{
 	width: 100%;
 	height: 50%;
 }
-.skilldivdiv{
+.skilldiv{
+	position: relative;
+	height: 400px;
 	width: 30%;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
+	margin-top: 5%;
+}
+#ghost, #flower, #star, #hongo, #moneda{
+position: absolute;
+left: 19%;
+top: 10%;
+z-index: -1;
 }
 #mario2{
 	display: none;
@@ -317,29 +325,16 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 	}
-.skilldiv{
+.skill{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
 	}
-#my-skills img{
-	width: 400px;
-	}
-.skilldivdiv{
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	}
 }
 @media only screen and (max-width: 799px){
-	#head{
-		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
-	}
 	#mario2{
-		width: 100px;
+		width: 300px;
 	}
 }
 

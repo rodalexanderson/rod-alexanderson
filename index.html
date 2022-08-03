@@ -19,11 +19,11 @@
 			<a href="#mountains" class="a"><div class="navbutton" >Home</div></a> 
 			<a href="#about-me" class="a"><div class="navbutton" >About me</div></a> 
 			<a href="#my-projects" class="a"><div class="navbutton" >Projects</div></a> 
-			<a href="https://rodalexanderson.hashnode.dev/" target="_blank" class="a"><div class="navbutton">Blog</div></a> 
+			<!-- <a href="https://rodalexanderson.hashnode.dev/" target="_blank" class="a"><div class="navbutton">Blog</div></a>  -->
 		</div>
 	</nav>
 	<body>
-		<section id="mountains">
+	<section id="mountains">
 			<input type="image" src="./images/pixel/manzana.svg" alt="red apple super mario like" onclick="showMario()" id="inputmario">
 			<div id="mountainsdiv">
 				<img src="./images/pixel/nube1.svg" alt="nube1" id="nube3">
@@ -41,7 +41,7 @@
 				<img src="./images/pixel/manzana.svg" alt="manzana" id="manzana4">
 				<img src="./images/pixel/manzana.svg" alt="manzana" id="manzana5">
 			</div>
-		</section>
+	</section>
 	<section id="about-me">
 		<h2>Get to know me!</h2>
 		<div>
@@ -53,46 +53,62 @@
 			<p>Hope to hear from you! I can't wait for my next challenge.</p>
 		</div>
 	</section>
-	 <section id="my-skills">
-		<div class="skilldiv">
-			<input type="image" src="./images/pixel/tunelazul.svg" alt="super mario tunnel blue" onclick="showMario2()" id="tunel">
-			<input type="image" src="./images/pixel/tunelamarillo.svg" alt="super mario tunnel yellow" onclick="showMario2()" id="tunel">
-			<input type="image" src="./images/pixel/tunelmorado.svg" alt="super mario tunnel purple" onclick="showMario2()" id="tunel">
+	<section id="my-skills">
+		<div class="skill">
+			<div class="skilldiv">
+				<img src="./images/pixel/ghost.svg" alt="super mario ghost like" id="ghost" width="90" height="90" loading="lazy">
+				<input type="image" src="./images/pixel/tunelazul.svg" alt="super mario tunnel blue" onclick="ghostShown()" id="tunel" width="250" height="250">
+			</div>
+			<div class="skilldiv">
+				<img src="./images/pixel/flower.svg" alt="super mario flower like" id="flower" width="90" height="90" loading="lazy">
+				<input type="image" src="./images/pixel/tunelamarillo.svg" alt="super mario tunnel yellow" onclick="flowerShown()" id="tunel" width="250" height="250">
+			</div>
+			<div class="skilldiv">
+				<img src="./images/pixel/hongo.svg" alt="super mario hongo like" id="hongo" width="90" height="90" loading="lazy">
+				<input type="image" src="./images/pixel/tunelmorado.svg" alt="super mario tunnel purple" onclick="hongoShown()" id="tunel" width="250" height="250">
+			</div>
 		</div>
-		<div class="skilldiv">
-				<input type="image" src="./images/pixel/tunel.svg" alt="super mario tunnel green" onclick="showMario2()" id="tunel">
-				<img src="./images/pixel/mario.svg" alt="super mario caracter" id="mario2" width="300px" height="300px">
-				<input type="image" src="./images/pixel/control.svg" alt="green head silohuette" onclick="showMario2()" id="head">
-			
-				<input type="image" src="./images/pixel/tunelrosa.svg" alt="super mario tunnel pink" onclick="showMario2()" id="tunel">
+		<div class="skill">
+			<div class="skilldiv">
+				<img src="./images/pixel/star.svg" alt="super mario star like" id="star" width="90" height="90" loading="lazy">
+				<input type="image" src="./images/pixel/tunel.svg" alt="super mario tunnel green" onclick="starShown()" id="tunel" width="250" height="250">
+			</div>
+			<div class="skilldiv">
+				<img src="./images/pixel/moneda.svg" alt="super mario moneda.svg like" id="moneda" width="90" height="90" loading="lazy">
+				<input type="image" src="./images/pixel/tunelrosa.svg" alt="super mario tunnel pink" onclick="monedaShown()" id="tunel" width="250" height="250">
+			</div>
+			<div class="skilldiv">
+				<img src="./images/pixel/mario.svg" alt="super mario caracter" id="mario2" width="400px" height="400px" loading="lazy">
+				<input type="image" src="./images/pixel/control.svg" alt="super nintendo control" onclick="showMario2()" id="control">
+			</div>
 		</div>
 	</section>
 	<section id="my-projects">
 		<h2>My projects</h2>
 		<div class="projects">
 			<div class="card">
-				<img src="./images/projects/gifos.png" alt="gifos home page screenshot" width="480" height="270">
+				<img src="./images/projects/gifos.png" alt="gifos home page screenshot" width="480" height="270" loading="lazy">
 				<h3>PROJECT GIPHOS</h3>
 				<p>This is was my first React App @Digital House Bootcamp. It is hosted in CodesandBox </p>
 				<p>GIPHOS is a web app that uses API-JSON method and design was given by Digital House</p>
 				<p>Click <a href="https://dz5ed.csb.app/" target="_blank">here</a> to see the app in your browser. <br> Final note: It is in spanish :)</p>
 			</div>
 			<div class="card">
-				<img src="./images/projects/bienestar.png" alt="bienestar con Prettan home page screenshot" width="480" height="270">
+				<img src="./images/projects/bienestar.png" alt="bienestar con Prettan home page screenshot" width="480" height="270" loading="lazy">
 				<h3>Bienestar con Prettan React App</h3>
 				<p>This is was my first React App whithout any supervision </p>
 				<p>Bienestar con Prettan is a web app that uses JSON fetching method for the clients Youtube Channel and also displays their products</p>
 				<p>Click <a href="https://bienestarconprettan.com/" target="_blank">here</a> to see the app in your browser. <br> Final note: It is also in spanish, and code is not available due to confidentiality agreement</p>
 			</div>
 			<div class="card">
-				<img src="./images/projects/unalanapay.png" alt="unalanaPay home page mock-up screenshot" width="480" height="270">
+				<img src="./images/projects/unalanapay.png" alt="unalanaPay home page mock-up screenshot" width="480" height="270" loading="lazy">
 				<h3>unalanaPay HTML-CSS-Bootstrap-JS-AOS library webpage mock-up</h3>
 				<p>This is a mock-up for a FINTECH startup I made. It is hosted in Netlify</p>
 				<p>Project was not sold but I did like the design and the final product. Fully responsive website.</p>
 				<p>Click <a href="https://unalanapay.netlify.app/" target="_blank">here</a> to see the app in your browser. <br> Code is available in <a href="https://github.com/rodalexanderson">my Github Account</a></p>
 			</div>
 			<div class="card">
-				<img src="./images/projects/devs.png" alt="devs united twitter-like app screenshot" width="480" height="270">
+				<img src="./images/projects/devs.png" alt="devs united twitter-like app screenshot" width="480" height="270" loading="lazy">
 				<h3>Fullstack messaging app using Firebase / Firestore as backend</h3>
 				<p>This was my final project in Digital House (previously Acamica). It is hosted in Netlify & no libraries were used</p>
 				<p>Project did not require mobile version, you may find CSS code that can be addapted</p>
@@ -105,9 +121,9 @@
 		<h2>Contact me</h2>
 		<!-- INICIA GLOWING ICONS -->
 		<div id="icons">
-			<a href="https://www.linkedin.com/in/rodrigo-ibarra-9bb7a99b/" target="blank" class="icon"><img src="./images/contactme/linkedin.svg" alt="linkedin logo" ></a>
-			<a href="https://github.com/rodalexanderson" target="blank" class="icon"><img src="./images/contactme/github.svg" alt="Github logo black and white" ></a>
-			<a href="https://twitter.com/rodalexanderson" target="blank" class="icon"><img src="./images/contactme/twitter.svg" alt="twitter logo blue" ></a> 
+			<a href="https://www.linkedin.com/in/rodrigo-ibarra-9bb7a99b/" target="blank" class="icon"><img src="./images/contactme/linkedin.svg" alt="linkedin logo" loading="lazy" ></a>
+			<a href="https://github.com/rodalexanderson" target="blank" class="icon"><img src="./images/contactme/github.svg" alt="Github logo black and white" loading="lazy" ></a>
+			<a href="https://twitter.com/rodalexanderson" target="blank" class="icon"><img src="./images/contactme/twitter.svg" alt="twitter logo blue" loading="lazy" ></a> 
 		 </div>
 	   <!-- TERMINA GLOWING ICONS -->
 	   
