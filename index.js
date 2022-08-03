@@ -27,6 +27,23 @@ function move() {
 window.addEventListener('scroll', move)
 // MOUNTAIN SECTION ANIMATION ENDS
 
+// ABOUT ME SECTION STARTS
+
+function showText() {
+    const personal = document.getElementById('personal-text')
+    const profesional = document.getElementById('prof-text')
+    const levelUp = document.getElementById('levelup')
+    const clickAgain = document.getElementById('clickagain')
+    clickAgain.style.display = 'block'
+    levelUp.style.display = 'block'
+    if (personal.style.display === 'none' ) {
+        ((personal.style.display = 'block') && (profesional.style.display = 'none'))
+    } else {
+        ((personal.style.display = 'none') && ((profesional.style.display = 'block')))
+    }
+}
+
+// ABOUT ME SECTION ENDS
 
 // EASTER EGGS MARIO STARTS
 function showMario() {
