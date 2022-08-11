@@ -10,12 +10,16 @@ body{
 	  overflow-x: hidden;
 	  text-decoration: none;
   }
+  h1, h2{
+	font-family: 'Luckiest Guy';
+  }
   h2{
 	text-align: center;
+	font-size: xx-large;
   }
 /***************************** SECCION NAV ****************************/
 nav{
-	height: 20%;
+	height: 18%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -49,9 +53,7 @@ a{
 	background-repeat: no-repeat;
 	text-decoration: none;
   }
-  h1, h2{
-	font-family: 'Luckiest Guy';
-  }
+
   @media only screen and (max-width: 600px) {
 	nav{
 		flex-direction: column;
@@ -87,7 +89,7 @@ a{
 	position: absolute;
 	width: 3%;
 	background-repeat: no-repeat;
-	bottom: -25px;
+	bottom: -10%;
 	left: 25%;
 	z-index: 4;
 	border: none;
@@ -139,11 +141,7 @@ a{
 	bottom: 4%;
 	animation: movement1 0.2s infinite;
 }
-#manzana2{
-	width: 3%;
-	bottom: 4%;
-	animation: movement2 0.2s infinite;
-}
+
 #manzana3{
 	width: 3%;
 	bottom: 1%;
@@ -193,9 +191,10 @@ a{
 @media only screen and (max-width: 899px) {
 	#mountains{
 		height: 80vh;
+		padding-bottom: 15%;
 	}
 	#inputmario{
-		bottom: -5%;
+		bottom: -14%;
 	}
 	#arbusto{
 		width: 20%;
@@ -245,10 +244,14 @@ a{
 @media only screen and (max-width: 600px) {
 	#mountains{
 		height: 70vh;
-		margin-top: -15%;
+		margin-top: -55%;
+		padding-bottom: 60%;
+	}
+	#inputmario{
+		bottom: 4%;
 	}
 	#mariobutton img{
-		bottom: -60px;
+		bottom: -10px;
 	}
 }
 
@@ -276,6 +279,7 @@ a{
 #aboutmediv{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 #aboutmedivup{
 	display: flex;
@@ -294,7 +298,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 70%;
+	width: 60%;
 }
 
 #personal-text, #levelup, #clickagain{
@@ -308,9 +312,6 @@ a{
 #prof-text{
 	display: block;
 }
-/* #prof-text, #personal-text{
-	width: 60%;
-} */
 @media only screen and (max-width: 899px){
 	#about-me{
 		margin-top: 180px;
@@ -319,7 +320,9 @@ a{
 
 @media only screen and (max-width: 600px){
 	#about-me{
-		margin-top: 220px;
+		padding-top: 220px;
+		margin-top: -1px;
+		height: auto;
 	}
 }
 
@@ -368,24 +371,33 @@ z-index: -1;
 	height: 300px;
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 899px) {
 #my-skills{
 	width: 100%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	}
-.skill{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
+	.skilldiv{
+		width: 50%;	
 	}
-}
-@media only screen and (max-width: 799px){
+#ghost, #flower, #star, #hongo, #moneda{
+		left: 21%;
+		}
+@media only screen and (max-width: 599px){
+	#my-skills{
+		padding-top: 8%;
+	}
 	#mario2{
 		width: 300px;
 	}
+	.skilldiv{
+		width: 100%;	
+	}
+	#ghost, #flower, #star, #hongo, #moneda{
+		left: -18%;
+		}
+}
 }
 
 
@@ -410,14 +422,15 @@ z-index: -1;
 	margin-right: 20px;
 }
 
+
 @media only screen and (max-width: 600px) {
 	.card, img{
 		width: 100%;
 		margin-left: 0px;
 		margin-right: 0;
 	}
-	.card{
-		height: 400px;
+	.proj-text{
+		height: fit-content;
 	}
   }
 
@@ -437,12 +450,15 @@ z-index: -1;
 .icon{
 	width: 200px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 899px) {
 	#icons{
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 0;
 	}
-	.icon{
-		width: 60%;
+	.icon img{
+		width: 200px;
 		padding-top: 5%;
 		margin-left: auto;
 		margin-right: auto;
@@ -456,6 +472,7 @@ z-index: -1;
 footer{
 	height: auto;
 	text-align: center;
+	font-size: xx-large;
 }
 
 
