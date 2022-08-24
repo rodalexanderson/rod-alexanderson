@@ -19,6 +19,20 @@ body{
 	text-align: center;
 	font-size: xx-large;
   }
+
+/* UNDER CONSTRUCTION */
+.h1maint, .pmaint{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+.imgmaint{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+/* END */
+
 /***************************** SECCION NAV ****************************/
 nav{
 	height: 18%;
