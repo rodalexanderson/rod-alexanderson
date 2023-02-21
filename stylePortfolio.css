@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+	  margin: 0;
+	  padding: 0;
+	  font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	  background: #ddd url(../images/main/egg_shell.jpg) repeat top left;
+	  font-weight: 400;
+	  font-size: 15px;
+	  color: #333;
+	  overflow: scroll;
+	  overflow-x: hidden;
+	  text-decoration: none;
+  }
+  h1, h2{
+	font-family: 'Luckiest Guy';
+  }
+  h2{
+	text-align: center;
+	font-size: xx-large;
+  }
+
+/* UNDER CONSTRUCTION */
+/* .h1maint, .pmaint{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+.imgmaint{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+} */
+
+/* END */
+
+/***************************** SECCION NAV ****************************/
+nav{
+	height: 18%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	background-color: #fffefe;
+	opacity: 0.9;
+	color: #111;
+	text-decoration: none;
+}
+.navdiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	justify-items: flex-end;
+	width: 50%;
+	padding-top: 1.5%;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: #111;
+	font-weight: bold;
+}
+.a:hover {
+	cursor: pointer;
+	color: rgb(0, 0, 0);
+	font-family: 'Luckiest Guy';
+	background-image: url('./images/main/bricks.svg');
+	background-repeat: no-repeat;
+	text-decoration: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+	nav{
+		flex-direction: column;
+		text-align: center;
+	}
+	.navdiv{
+		width: 100%;
+		padding-bottom: 15px;
+		justify-content: space-evenly;
+	}
+	.a:hover{
+		background-image: none;
+	}
+}
+/*************************** TERMINA SECCION NAV *************************/
+/***************************** SECCION MOUNTAINS ***************************++++*/
+#mountains{
+	margin-top: -2%;
+}
+#mountainsdiv {
+	position: relative;
+	background-image: linear-gradient(#F3BADB, #F6D19C);
+	width: 100%;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
+}
+
+#mountainsdiv img{
+	position: absolute;
+}
+#inputmario{
+	position: absolute;
+	width: 3%;
+	background-repeat: no-repeat;
+	bottom: -10%;
+	left: 25%;
+	z-index: 4;
+	border: none;
+}
+#montanas {
+	bottom: 0;
+}
+#arbusto, #arbusto1, #arbusto2 {
+	bottom: 0%;
+}
+#mario {
+	display: none;
+	position: relative;
+	bottom: 0;
+}
+#arbusto{
+	width: 20;
+	left: 5%;
+}
+#arbusto1{
+	width: 23%;
+}
+#arbusto2{
+	right: 5%;
+}
+#nube {
+	width: 20%;
+	right: 12%;
+}
+#nube1 {
+	width: 15%;
+	right: 29%;
+}
+#nube2 {
+	width: 19%;
+	left: 2%;
+}
+#nube3 {
+	width: 29%;
+	left: 10%;
+}
+#manzana{
+	width: 3%;
+	bottom: 2%;
+	animation: movement 0.2s infinite;
+}
+#manzana1{
+	width: 3%;
+	bottom: 4%;
+	animation: movement1 0.2s infinite;
+}
+
+#manzana3{
+	width: 3%;
+	bottom: 1%;
+	animation: movement3 0.2s infinite;
+}
+#manzana4{
+	width: 3%;
+	bottom: 1%;
+	animation: movement4 0.2s infinite;
+}
+#manzana5{
+	width: 3%;
+	bottom: 1%;
+	animation: movement5 0.2s infinite;
+}
+
+@keyframes movement {
+	0% {left: 7.8%}
+	50% {left: 8%}
+	100% {left: 7.8%}
+}
+@keyframes movement1 {
+	0% {left: 14.8%}
+	50% {left: 15%}
+	100% {left: 14.8%}
+}
+@keyframes movement2 {
+	0% {left: 25.8%}
+	50% {left: 26%}
+	100% {left: 25.8%}
+}
+@keyframes movement3 {
+	0% {left: 30.8%}
+	50% {left: 31%}
+	100% {left: 30.8%}
+}
+@keyframes movement4 {
+	0% {right: 16.8%}
+	50% {right: 17%}
+	100% {right: 16.8%}
+}
+@keyframes movement5 {
+	0% {right: 9.8%}
+	50% {right: 10%}
+	100% {right: 9.8%}
+}
+@media only screen and (max-width: 899px) {
+	#mountains{
+		height: 80vh;
+		padding-bottom: 15%;
+	}
+	#inputmario{
+		bottom: -14%;
+	}
+	#arbusto{
+		width: 20%;
+		left: 5%;
+	}
+	#arbusto1{
+		width: 17%;
+		left: 19%;
+	}
+	#arbusto2{
+		width: 20%;
+		right: 5%;
+	}
+	#nube {
+		width: 30%;
+		bottom: 28%;
+		right: 4%;
+	}
+	#nube1 {
+		width: 28%;
+		bottom: 22%;
+		right: 22%;
+	}
+	#nube2 {
+		width: 29%;
+		bottom: 22%;
+		left: 2%;
+	}
+	#nube3 {
+		width: 39%;
+		bottom: 24%;
+		left: 10%;
+	}
+	#manzana{
+		bottom: 1%;
+	}
+	#manzana1{
+		bottom: 2%;
+	}
+	#manzana2{
+		bottom: 2%;
+	}
+	#manzana3{
+		bottom: 0.7%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#mountains{
+		height: 70vh;
+		margin-top: -55%;
+		padding-bottom: 60%;
+	}
+	#inputmario{
+		bottom: -8%;
+	}
+	#mariobutton img{
+		bottom: -10px;
+	}
+}
+
+/*************************** TERMINA SECCION HEADER *************************/
+
+/***************************** INICIA SECCION ABOUT ME ***************************++++*/
+#about-me{
+	height: 600px;
+	background-color: #1C8F0C;
+	padding-top: 1px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+} 
+#aboutme h2{
+	font-size: x-large;
+}
+#aboutmediv{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: left;
+}
+#aboutmedivup{
+	display: flex;
+	flex-direction: column;
+}
+#levelup{
+	width: 200px;
+}
+#inputbox{
+	width: 80%;
+	margin-left: 5%;
+	margin-right: 5%;
+	cursor: pointer;
+}
+#aboutmedivdown{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 60%;
+}
+
+#personal-text, #levelup, #clickagain{
+	display: none;
+}
+#clickagain{
+	font-family: 'Luckiest Guy';
+	text-align: center;
+	font-size: large;
+}
+#prof-text{
+	display: block;
+}
+@media only screen and (max-width: 899px){
+	#about-me{
+		margin-top: 180px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#about-me{
+		padding-top: 220px;
+		margin-top: -1px;
+		height: auto;
+	}
+}
+
+
+
+
+/***************************** TERMINA SECCION ABOUT ME ***************************++++*/
+
+/*********************** INICIA SECCION MY SKILLS ***************************+*/
+#my-skills{
+	width: 100%;
+	height: 100vh;
+}
+.skill{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 50%;
+}
+.skilldiv{
+	position: relative;
+	height: 400px;
+	width: 30%;
+	display: flex;
+	justify-content: left;
+	margin-top: 5%;
+}
+#ghost, #flower, #star, #hongo, #moneda{
+position: absolute;
+left: 19%;
+top: 10%;
+z-index: -1;
+}
+#mario2, #css-text, #js-text, #react-text, #seo-text, #management-text{
+	display: none;
+}
+#css-text, #js-text, #react-text, #seo-text, #management-text{
+	font-family: 'Luckiest Guy';
+	font-size: large;
+	padding-top: 15%;
+  }
+#control{
+	width: 300px;
+	height: 300px;
+}
+
+@media only screen and (max-width: 899px) {
+#my-skills{
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.skilldiv{
+		width: 50%;	
+	}
+#ghost, #flower, #star, #hongo, #moneda{
+		left: 21%;
+		}
+@media only screen and (max-width: 599px){
+	#my-skills{
+		padding-top: 8%;
+	}
+	#mario2{
+		width: 300px;
+	}
+	.skilldiv{
+		width: 100%;	
+	}
+	#ghost, #flower, #star, #hongo, #moneda{
+		left: -18%;
+		}
+}
+}
+
+
+
+/*********************** TERMINA SECCION MY SKILLS ***************************+*/
+
+/***************************** INICIA SECCION MY PROJECTS ***************************++++*/
+#my-projects{
+	margin-bottom: 100px;
+}
+.projects{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.card{
+	width: 470px;
+	margin-bottom: 50px;
+	margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.card, img{
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0;
+	}
+	.proj-text{
+		height: fit-content;
+	}
+  }
+
+
+/***************************** TERMINA SECCION MY PROJECTS ********************************/
+/***************************** INICIA SECCION CONTACT ME ********************************/
+#contact-me{
+	text-align: center;
+	margin-bottom: 20px;
+	background-image: none;
+}
+#icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.icon{
+	width: 200px;
+}
+@media only screen and (max-width: 899px) {
+	#icons{
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 0;
+	}
+	.icon img{
+		width: 200px;
+		padding-top: 5%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }
+
+
+/***************************** TERMINA SECCION CONTACT ME ********************************/
+
+/***************************** INICIA SECCION FOOTER ********************************/
+footer{
+	height: auto;
+	text-align: center;
+	font-size: xx-large;
+}
+
+
+/***************************** TERMINA SECCION FOOTER ********************************/
