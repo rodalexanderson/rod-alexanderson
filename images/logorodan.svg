@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.15 90.53">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 6.88px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #e5007e;
+      }
+
+      .cls-5 {
+        fill: #1d1d1b;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-8 {
+        font-size: 4.79px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        font-family: MalayalamMN, 'Malayalam MN';
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-10 {
+        font-size: 11.37px;
+      }
+    </style>
+  </defs>
+  <text class="cls-5" transform="translate(16.94 75.21)"><tspan class="cls-9"><tspan class="cls-10" x="0" y="0">R</tspan><tspan class="cls-1" x="7.11" y="0">O</tspan><tspan class="cls-2" x="12.84" y="0">D</tspan><tspan class="cls-1" x="17.9" y="0">AN</tspan><tspan class="cls-10" x="27.27" y="0"> </tspan></tspan><tspan class="cls-8"><tspan class="cls-9" x="-1.05" y="5.75">Bienes Ra</tspan><tspan class="cls-6" x="20.79" y="5.75">í</tspan><tspan class="cls-7" x="21.91" y="5.75">c</tspan><tspan class="cls-6" x="24.02" y="5.75">es</tspan></tspan></text>
+  <g>
+    <polygon class="cls-4" points="26.32 63.25 26.32 0 0 16.55 0 63.25 26.32 63.25"/>
+    <polygon class="cls-4" points="31.41 7.22 58.15 16.98 58.15 61.55 31.41 61.55 31.41 7.22"/>
+    <rect class="cls-3" x="7.34" y="26.32" width="4.19" height="5.31"/>
+    <rect class="cls-3" x="16.68" y="25.58" width="4.78" height="6.05"/>
+    <rect class="cls-3" x="16.49" y="37.76" width="4.68" height="5.92"/>
+    <rect class="cls-3" x="6.49" y="37.76" width="5.08" height="6.43"/>
+    <rect class="cls-3" x="36.32" y="32.31" width="5.08" height="6.43"/>
+    <rect class="cls-3" x="45.89" y="22.36" width="5.08" height="6.43"/>
+    <rect class="cls-3" x="35.63" y="20.92" width="5.08" height="6.43"/>
+    <rect class="cls-3" x="45.89" y="34.54" width="5.08" height="6.43"/>
+  </g>
+</svg>
